@@ -1,0 +1,44 @@
+//Variables
+$primary-color: #efc177;
+$secondary-color: #bc9c70;
+$tertiary-color: #000000;
+$quaternary-color: #575757;
+
+//Form to use all around the site
+.site-form{
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 60%, 900px);
+    margin: 20px auto;
+    gap: 5px;
+    label{
+  
+    }
+    input, textarea{
+      margin-bottom: 10px;
+      border-color: rgba(0, 0, 0, .4);
+      box-shadow: none;
+      height: 34px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      &:last-child{
+        margin-top: 20px;
+        background: $secondary-color;
+        color: #FFFFFF!important;
+        padding: 12px 28px 12px 28px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 6px;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+    }
+    textarea{
+      height: 100px;
+    }
+  }

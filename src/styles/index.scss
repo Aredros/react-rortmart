@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+//Variables
+$primary-color: #efc177;
+$secondary-color: #bc9c70;
+$tertiary-color: #000000;
+$quaternary-color: #575757;
+
+@font-face {
+  font-family: 'Nomad-Regular';
+  src: url('../assets/fonts/Nomad-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'helvetica', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//Banners located here so they will charge first and get it's space defined
+.image-banner{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.orange-banner{}
+
+.white-area{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+//Titles and text for descriptions
+.small-title{
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  color: #717171;
+  margin: 10px auto;
+  font-family: "helvetica";
+  width: clamp(350px, 75%, 950px);
+}
+
+.colored-title{}
+
+.orange-cover{
+  background: black;
+  border: 3px solid $primary-color;
+  width: clamp(340px, 65%, 640px);
+  margin: auto;
+}
+.orange-title{
+  color: $primary-color;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.little-description{}
+.white-text{}
+h1{
+  font-family: 'Nomad-Regular';
+  font-size: 35px !important;}
+
+//button that will be used for navigation
+.first-button{
+  background: $primary-color;
+  color: #272626;
+  margin-top: 22px;
+  text-transform: uppercase;
+  padding: 12px 28px 12px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 40px;
+  line-height: 1.3333333;
+  border: 1px solid rgba(0, 0, 0, .08);
+  border-bottom-color: rgba(0, 0, 0, .1);
+  text-shadow: 0 1px 0 rgb(0 0 1 / 10%);
+  box-shadow: 0 1px 3px rgb(0 0 1 / 25%), inset 0 1px 0 0 rgb(255 255 255 / 15%);
+}
+
+//button used for forms
+.second-button{}
+.third-button{}
+
+
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./pages/home.scss";
+@import "./components/icontext.scss";
+@import "./components/imgtext.scss";
+

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Robotinx",
+        "manufacterer": "RobotINCa",
+        "price": "3000",
+        "description": "The description of Robotina cleaning robot",
+        "images": ""
+    },
+    {
+        "id": "2",
+        "name": "Megamanus",
+        "manufacterer": "Senix",
+        "price": "5000",
+        "description": "The description of Megamanus combat robot",
+        "images": ""
+    },
+    {
+        "id": "3",
+        "name": "Spycable",
+        "manufacterer": "Govt-Agency",
+        "price": "850000",
+        "description": "Robot made to spy on people, using social media and observation",
+        "images": ""
+    }
+]

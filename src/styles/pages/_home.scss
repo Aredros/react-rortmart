@@ -1,0 +1,115 @@
+.home-banner{
+    img{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+.introduction-services{
+    &__icons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin: 40px auto 70px;
+        width: clamp(350px, 75%, 1100px);
+    }
+}
+
+//Description area
+.introduction-description{
+    &__text-area{
+        width: clamp(280px, 50%, 750px);
+        background: black;
+        border: 3px solid #efc177;
+        margin: 20px auto;
+        padding: 20px;
+        h3{
+            font-family: 'Nomad-Regular';
+            color: #efc177;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: white;
+            margin-bottom: 20px;
+        }
+        a{
+            color: #efc177;
+            
+        }
+    }
+}
+
+//Clients area
+.introduction-clients{
+    &__area{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-evenly;
+        margin: 40px auto 70px;
+        width: clamp(350px, 55%, 800px);
+    }
+}
+
+//Contact area
+.description-banner{
+
+}
+
+/*********************************************************************************/
+/* ------------------------------ RESPONSIVE : TABLETTE ( 768px) ----------------- */
+/*********************************************************************************/
+
+
+@media (min-width: 768px)
+{
+    .introduction-services{
+        &__icons{
+            flex-direction: row;
+        }
+    }
+
+    
+//Description area
+
+.introduction-description{
+    &__text-area{
+        padding: 50px;
+        h3{
+            font-size: 22px;
+        }
+    }
+}
+
+//Clients area
+
+.introduction-clients{
+    &__area{
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+}
+
+/*********************************************************************************/
+/* -------------------- RESPONSIVE : DESKTOP (992px ) ------------------------------ */
+/*********************************************************************************/
+
+@media (min-width: 992px)
+{
+
+}
+
+/*********************************************************************************/
+/* ------------------- RESPONSIVE : BIG TELEPHONE (  de 450px) ------------------- */
+/*********************************************************************************/
+
+@media (min-width: 450px)
+{
+
+}
