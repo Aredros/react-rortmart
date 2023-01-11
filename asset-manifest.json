@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Aredros/react-rortmart/static/css/main.7f587fe9.css",
-    "main.js": "/Aredros/react-rortmart/static/js/main.0549ad98.js",
-    "static/js/787.e9b4d8c4.chunk.js": "/Aredros/react-rortmart/static/js/787.e9b4d8c4.chunk.js",
-    "static/media/market-helper.png": "/Aredros/react-rortmart/static/media/market-helper.29cba4c2f7ae7288cdc7.png",
-    "static/media/builder.png": "/Aredros/react-rortmart/static/media/builder.35563f6b3f49e7dbdb40.png",
-    "static/media/casse.png": "/Aredros/react-rortmart/static/media/casse.16b51fbaa41942b5729a.png",
-    "static/media/worker.png": "/Aredros/react-rortmart/static/media/worker.fc0bd7492a3dcad4ce5a.png",
-    "static/media/robot-spy.png": "/Aredros/react-rortmart/static/media/robot-spy.56230b5d1fc6bff30926.png",
-    "static/media/talker.jpg": "/Aredros/react-rortmart/static/media/talker.1c1eaa7656e04b4fc45c.jpg",
-    "static/media/child-holder.jpg": "/Aredros/react-rortmart/static/media/child-holder.e012d019a8cad43ac29e.jpg",
-    "static/media/rormart-logo.png": "/Aredros/react-rortmart/static/media/rormart-logo.88fde9019c2665d0d152.png",
-    "static/media/Nomad-Regular.ttf": "/Aredros/react-rortmart/static/media/Nomad-Regular.8bc14d658dab3d4e26c3.ttf",
-    "index.html": "/Aredros/react-rortmart/index.html",
-    "main.7f587fe9.css.map": "/Aredros/react-rortmart/static/css/main.7f587fe9.css.map",
-    "main.0549ad98.js.map": "/Aredros/react-rortmart/static/js/main.0549ad98.js.map",
-    "787.e9b4d8c4.chunk.js.map": "/Aredros/react-rortmart/static/js/787.e9b4d8c4.chunk.js.map"
+    "main.css": "/react-rortmart/static/css/main.32534bb5.css",
+    "main.js": "/react-rortmart/static/js/main.5a32e577.js",
+    "static/js/787.e9b4d8c4.chunk.js": "/react-rortmart/static/js/787.e9b4d8c4.chunk.js",
+    "static/media/market-helper.png": "/react-rortmart/static/media/market-helper.29cba4c2f7ae7288cdc7.png",
+    "static/media/builder.png": "/react-rortmart/static/media/builder.35563f6b3f49e7dbdb40.png",
+    "static/media/casse.png": "/react-rortmart/static/media/casse.16b51fbaa41942b5729a.png",
+    "static/media/worker.png": "/react-rortmart/static/media/worker.fc0bd7492a3dcad4ce5a.png",
+    "static/media/robot-spy.png": "/react-rortmart/static/media/robot-spy.56230b5d1fc6bff30926.png",
+    "static/media/talker.jpg": "/react-rortmart/static/media/talker.1c1eaa7656e04b4fc45c.jpg",
+    "static/media/child-holder.jpg": "/react-rortmart/static/media/child-holder.e012d019a8cad43ac29e.jpg",
+    "static/media/rormart-logo.png": "/react-rortmart/static/media/rormart-logo.88fde9019c2665d0d152.png",
+    "static/media/Nomad-Regular.ttf": "/react-rortmart/static/media/Nomad-Regular.8bc14d658dab3d4e26c3.ttf",
+    "index.html": "/react-rortmart/index.html",
+    "main.32534bb5.css.map": "/react-rortmart/static/css/main.32534bb5.css.map",
+    "main.5a32e577.js.map": "/react-rortmart/static/js/main.5a32e577.js.map",
+    "787.e9b4d8c4.chunk.js.map": "/react-rortmart/static/js/787.e9b4d8c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f587fe9.css",
-    "static/js/main.0549ad98.js"
+    "static/css/main.32534bb5.css",
+    "static/js/main.5a32e577.js"
   ]
 }
